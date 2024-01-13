@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -47,11 +48,11 @@ header {
     font-weight: 400;
 }
 
-.login-button button {
+.login-button button{
     border: none;
+    background-color: #0187a7;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #0187a7;
 }
 
 .login-button button a {
@@ -82,6 +83,7 @@ header {
     .mobile-menu-icon {
         display: block;
     }
+
     .mobile-menu-icon button {
         background-color: transparent;
         border: none;
@@ -93,10 +95,12 @@ header {
         text-align: center;
         padding-bottom: 1rem;
     }
+
     .mobile-menu .nav-item {
         display: block;
-        padding-top: 1.2rem;
+        padding: 1.2rem;
     }
+
     .mobile-menu .login-button {
         display: block;
         padding: 1rem 2rem;
@@ -104,7 +108,7 @@ header {
     .mobile-menu .login-button button {
         width: 100%;
     }
-    .open {
+    .open{
         display: block;
     }
 }
